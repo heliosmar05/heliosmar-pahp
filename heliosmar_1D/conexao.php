@@ -3,7 +3,7 @@
 $host    = "localhost";  
 $usuario = "root";        
 $senha   = "";           
-$banco   = "";      
+$banco   = "projeto_heliosmar";      
 // Conexão MySQLi
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
